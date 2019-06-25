@@ -8,7 +8,7 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, StatusBar} from 'react-native';
-import { Form, FormLabel, FormInput, FormValidationMessage, Avatar, PricingCard, SocialIcon } from 'react-native-elements'
+import { Form, FormLabel, FormInput, FormValidationMessage, Avatar, PricingCard, SocialIcon, Divider } from 'react-native-elements'
 
 
 import Routes from './Route'
@@ -29,6 +29,8 @@ export default class App extends Component<Props> {
           barStyle="dark-content"
         />
         <Routes />
+
+        <Divider style={{ backgroundColor: 'tomato' }} />
         <View style={{width: '100%',height: 50,backgroundColor: '#082349',alignSelf:'flex-end'}}>
         </View>
       </View>
