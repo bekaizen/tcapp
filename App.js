@@ -9,7 +9,7 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, StatusBar} from 'react-native';
 import { Form, FormLabel, FormInput, FormValidationMessage, Avatar, PricingCard, SocialIcon, Divider } from 'react-native-elements'
-
+import Icon from 'react-native-vector-icons/FontAwesome'
 
 import Routes from './Route'
 
@@ -30,8 +30,13 @@ export default class App extends Component<Props> {
         />
         <Routes />
 
-        <Divider style={{ backgroundColor: 'tomato' }} />
-        <View style={{width: '100%',height: 50,backgroundColor: '#082349',alignSelf:'flex-end'}}>
+        <Divider />
+        <View style={{width: '100%',height: 50,backgroundColor: '#082349',alignSelf:'flex-end', alignItems:'center'}}>
+        <Icon
+          name='heartbeat'
+          type='font-awesome'
+          color='#f50'
+          onPress={() => alert('Are you sure you want to save this video?')} />
         </View>
       </View>
     );

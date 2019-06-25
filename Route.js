@@ -12,7 +12,7 @@ export default class Routes extends Component<{}> {
     return (
       <Router>
         <Stack key="root">
-          <Scene key="home" component={Home} title="Playlist Videos" />
+          <Scene key="home" component={Home} title="Lista de reproducción" />
           <Scene key="watchvideo" component={WatchVideo} title="Videos" />
         </Stack>
       </Router>
