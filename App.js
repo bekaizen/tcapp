@@ -28,8 +28,8 @@ export default class App extends Component<Props> {
           backgroundColor="#fff"
           barStyle="dark-content"
         />
-        {/* <Routes /> */}
-        <View style={{width: '100%',height: 50,backgroundColor: '#E93733',position: 'absolute',bottom: 0}}>
+        <Routes />
+        <View style={{width: '100%',height: 50,backgroundColor: '#082349',alignSelf:'flex-end'}}>
         </View>
       </View>
     );
