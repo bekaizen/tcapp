@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { StyleSheet, SafeAreaView, FlatList, Text, TouchableOpacity } from 'react-native'; 
 import {Actions} from 'react-native-router-flux'; 
 const MAX_RESULT = 15; 
-const PLAYLIST_ID = "PLMhIQVx3hqfk9itaOQerbpBOCHRXkFB-p";
+const PLAYLIST_ID = "PL3dTQRD27Nzs7IZI19lqRt_X4J6ZwvsgO";
 const API_KEY = "AIzaSyC54BQbvS1H4Lw2DZcPTYFeGFMGBSQiBh0"; 
 
 export default class Home extends Component<{}> {
